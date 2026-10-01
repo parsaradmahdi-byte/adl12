@@ -445,8 +445,8 @@ public class MainActivity extends Activity {
             text(c,"نوار زمان را حرکت بده و لحظه‌ای را پیدا کن که سرنخ پرونده دیده می‌شود.",950,455,29,Color.WHITE,true,Layout.Alignment.ALIGN_OPPOSITE,860);
             round(c,90,560,990,1370,28,0xff1c292f);
             float frameX=150+(dvdTime/30f)*780f;
-            text(c,"CAM 03",150,650,26,0xffb8c6cc,true,Layout.Alignment.ALIGN_LEFT,200);
-            text(c,"21:"+String.format(java.util.Locale.US,"%02d",(int)dvdTime),930,650,28,0xffe2bb78,true,Layout.Alignment.ALIGN_RIGHT,200);
+            text(c,"CAM 03",150,650,26,0xffb8c6cc,true,Layout.Alignment.ALIGN_NORMAL,200);
+            text(c,"21:"+String.format(java.util.Locale.US,"%02d",(int)dvdTime),930,650,28,0xffe2bb78,true,Layout.Alignment.ALIGN_OPPOSITE,200);
             if(dvdTime>=17 && dvdTime<=19){
                 text(c,"خودروی تیره‌رنگ در ورودی پشتی",540,900,34,Color.WHITE,true,Layout.Alignment.ALIGN_CENTER,800);
                 text(c,"شخصی بسته‌ای را از صندوق بیرون می‌آورد.",540,1000,28,0xffd7cbb9,true,Layout.Alignment.ALIGN_CENTER,800);
